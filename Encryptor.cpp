@@ -8,14 +8,13 @@ int main()
 	cout << "Enter Password: ";
 	cin >> pswd;
 	cout << "*********************************************************" << endl;
-	if (pswd == "190896" || pswd == "185908" || pswd == "189350")
+	if (pswd == "000" || pswd == "727") //choose your own password and add as many users as you want
 	{
-		if (pswd == "190896")
-			cout << "\t   Welcome Mr.Yousef Mohamed !\n\n";
-		else if (pswd == "185908")
-			cout << "\t   Welcome Mr.Mohamed El-Shahat !\n\n";
-		else if (pswd == "189350")
-			cout << "\t   Welcome Mr.Omar Osama!\n\n";
+		string name = "YourName"; //add your name here
+		if (pswd == "000")
+			cout << "\t   Welcome Mr. " << name <<"!\n\n";
+		if (pswd == "727")
+			cout << "\t   Welcome Mr. Yousef!\n\n";
 		cout << "This program is a messenger through encrypted messages\nsent as a numbered code and reform it to text again.\n";
 		system("pause");
 		cout << "*********************************************************" << endl;
